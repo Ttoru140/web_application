@@ -1,0 +1,7 @@
+python
+pip freeze
+pip install Django==4.2.7
+django-admin startproject server // python
+python .\manage.py runserver
+python .\manage.py migrate
+python .\manage.py createsuperuser
